@@ -126,6 +126,17 @@ body {
   border-color: #666666;
 }
 
+.login {
+  background-color: #1f1f1f;
+  border-color: #1f1f1f;
+}
+
+.login:hover {
+  background-color: #070a3d;
+  border-color: #070a3d;
+}
+
+
 /* Responsive Adjustments */
 @media (max-width: 991.98px) {
   .hero-section {
@@ -232,5 +243,27 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+}
+
+/* Login Page Styles */
+.login-section {
+  min-height: calc(100vh - 76px - 72px); /* Subtracting header and footer heights */
+  display: flex;
+  align-items: center;
+}
+
+.login-section .card {
+  border: none;
+  border-radius: 1rem;
+}
+
+.login-section .btn-outline-primary {
+  border-color: #dee2e6;
+}
+
+.login-section .btn-outline-primary:hover {
+  background-color: #f8f9fa;
+  border-color: #dee2e6;
+  color: var(--primary);
 }
 

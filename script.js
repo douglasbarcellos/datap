@@ -68,5 +68,14 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 1500)
     })
   }
+
+  // Login form submission (for demonstration purposes)
+  const loginForm = document.querySelector(".login-section form")
+  if (loginForm) {
+    loginForm.addEventListener("submit", (e) => {
+      e.preventDefault()
+      alert("Funcionalidade de login em desenvolvimento. Por favor, entre em contato conosco para obter acesso.")
+    })
+  }
 })
 
